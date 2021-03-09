@@ -1,0 +1,8 @@
+name: {{cookiecutter.name}}
+channels:
+  - defaults
+dependencies:
+  - black=19.10b0
+  - jupyter=1.0.0
+  - python={{cookiecutter.python}}
+  - pylint=2.7.2

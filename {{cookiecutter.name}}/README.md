@@ -20,10 +20,4 @@ To update the `environment.yml` file, use the command below
 conda env export --no-builds | findstr -v "prefix" > environment.yml
 ```
 
-<hr>
-
-<sup>
-
 ## Credits
-
-</sup>

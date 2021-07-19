@@ -17,5 +17,8 @@
   "terminal.integrated.shellArgs.windows": [
     "/K",
     " conda activate ${workspaceFolder}/venv"
-  ]
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
 }

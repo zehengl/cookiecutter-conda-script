@@ -3,6 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - black=21.7b0
-  - jupyterlab=3.1.8
+  - jupyterlab=3.1.9
   - python={{cookiecutter.python}}
   - pylint=2.10.2

@@ -2,7 +2,7 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - black=21.7b0
+  - black=21.8b0
   - jupyterlab=3.1.9
   - python={{cookiecutter.python}}
   - pylint=2.10.2

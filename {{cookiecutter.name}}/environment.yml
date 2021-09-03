@@ -4,5 +4,8 @@ channels:
 dependencies:
   - black=21.8b0
   - jupyterlab=3.1.10
+{%- if cookiecutter.writing_docs == "yes" %}
+  - mkdocs=1.2.2
+{%- endif %}
   - python={{cookiecutter.python}}
   - pylint=2.10.2

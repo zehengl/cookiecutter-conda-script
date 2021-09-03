@@ -20,4 +20,14 @@ To update the `environment.yml` file, use the command below
 conda env export --no-builds | findstr -v "prefix" > environment.yml
 ```
 
+{%- if cookiecutter.writing_docs == "yes" %}
+
+## Docs
+
+```cmd
+mkdocs build
+mkdocs serve
+```
+{%- endif %}
+
 ## Credits

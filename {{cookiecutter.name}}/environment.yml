@@ -7,5 +7,8 @@ dependencies:
 {%- if cookiecutter.writing_docs == "yes" %}
   - mkdocs=1.2.2
 {%- endif %}
+{%- if cookiecutter.writing_tests == "yes" %}
+  - pytest=6.2.5
+{%- endif %}
   - python={{cookiecutter.python}}
   - pylint=2.10.2

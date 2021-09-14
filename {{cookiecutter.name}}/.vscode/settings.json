@@ -15,5 +15,7 @@
   "python.pythonPath": "${workspaceFolder}/venv/python.exe",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
-  }
+  },
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false
 }

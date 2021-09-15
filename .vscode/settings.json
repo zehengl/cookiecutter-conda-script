@@ -6,5 +6,7 @@
   "files.trimTrailingWhitespace": true,
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
-  "workbench.productIconTheme": "material-product-icons"
+  "workbench.productIconTheme": "material-product-icons",
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false
 }

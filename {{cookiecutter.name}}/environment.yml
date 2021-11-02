@@ -2,7 +2,7 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - black=21.9b0
+  - black=21.10b0
   - jupyterlab=3.2.1
 {%- if cookiecutter.writing_docs == "yes" %}
   - mkdocs=1.2.3

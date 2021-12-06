@@ -11,4 +11,4 @@ dependencies:
   - pytest=6.2.5
 {%- endif %}
   - python={{cookiecutter.python}}
-  - pylint=2.11.1
+  - pylint=2.12.2

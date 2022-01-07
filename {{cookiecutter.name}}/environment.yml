@@ -10,5 +10,10 @@ dependencies:
 {%- if cookiecutter.writing_tests == "yes" %}
   - pytest=6.2.5
 {%- endif %}
+{%- if cookiecutter.running_eda == "yes" %}
+  - pandas=1.3.5
+  - seaborn=0.11.2
+  - tqdm=4.62.3
+{%- endif %}
   - python={{cookiecutter.python}}
   - pylint=2.12.2

@@ -14,11 +14,11 @@
 conda env create -f environment.yml -p .\venv
 ```
 
-To update the `environment.yml` file, use the command below
+> To update the `environment.yml` file, use the command below
 
-```cmd
-conda env export --no-builds | findstr -v "prefix" > environment.yml
-```
+> ```cmd
+> conda env export --no-builds | findstr -v "prefix" > environment.yml
+> ```
 
 {%- if cookiecutter.writing_docs == "yes" %}
 

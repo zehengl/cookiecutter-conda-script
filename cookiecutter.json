@@ -1,6 +1,6 @@
 {
   "name": "cookiecutter-conda-script",
-  "python": "3.7.12",
+  "python": "3.9.10",
   "description": null,
   "img": null,
   "running_eda": ["yes", "no"],

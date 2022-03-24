@@ -13,7 +13,7 @@ dependencies:
 {%- if cookiecutter.running_eda == "yes" %}
   - pandas=1.4.1
   - seaborn=0.11.2
-  - tqdm=4.63.0
+  - tqdm=4.63.1
 {%- endif %}
   - python={{cookiecutter.python}}
   - pylint=2.12.2

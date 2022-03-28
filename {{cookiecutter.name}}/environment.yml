@@ -16,4 +16,4 @@ dependencies:
   - tqdm=4.63.1
 {%- endif %}
   - python={{cookiecutter.python}}
-  - pylint=2.12.2
+  - pylint=2.13.1

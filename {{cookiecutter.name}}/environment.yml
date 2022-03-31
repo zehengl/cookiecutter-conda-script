@@ -5,7 +5,7 @@ dependencies:
   - black=22.3.0
   - jupyterlab=3.3.2
 {%- if cookiecutter.writing_docs == "yes" %}
-  - mkdocs=1.2.3
+  - mkdocs=1.2.4
 {%- endif %}
 {%- if cookiecutter.writing_tests == "yes" %}
   - pytest=7.1.1
@@ -17,3 +17,5 @@ dependencies:
 {%- endif %}
   - python={{cookiecutter.python}}
   - pylint=2.13.1
+  - pip:
+      - pip-check-updates==0.11.0

@@ -8,7 +8,7 @@ dependencies:
   - mkdocs=1.3.0
 {%- endif %}
 {%- if cookiecutter.writing_tests == "yes" %}
-  - pytest=7.1.1
+  - pytest=7.1.2
 {%- endif %}
 {%- if cookiecutter.running_eda == "yes" %}
   - pandas=1.4.2

@@ -15,7 +15,7 @@
 ## Install
 
 ```cmd
-conda env create -f environment.yml -p .\venv
+conda env create -f environment.yml -p .\.venv
 ```
 
 > To update the `environment.yml` file, use the command below

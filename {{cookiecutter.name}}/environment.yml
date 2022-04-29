@@ -16,6 +16,6 @@ dependencies:
   - tqdm=4.64.0
 {%- endif %}
   - python={{cookiecutter.python}}
-  - pylint=2.13.5
+  - pylint=2.13.7
   - pip:
       - pip-check-updates==0.15.0

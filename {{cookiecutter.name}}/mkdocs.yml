@@ -4,6 +4,8 @@ nav:
   - About: about.md
 theme:
   name: material
+  favicon: {{cookiecutter.img}}
+  logo: {{cookiecutter.img}}
   font:
     text: Roboto
   features:

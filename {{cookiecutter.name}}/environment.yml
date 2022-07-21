@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - black=22.6.0
-  - jupyterlab=3.4.3
+  - jupyterlab=3.4.4
   - pip=22.1.2
 {%- if cookiecutter.writing_docs == "yes" %}
   - mkdocs-git-revision-date-localized-plugin=1.1.0

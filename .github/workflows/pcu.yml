@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: zehengl/refresh-python-dependency@v0.1.2
         with:
-          path: "{{cookiecutter.name}}/requirements-dev.txt"
+          path: "{{cookiecutter.name}}/environment.yml"

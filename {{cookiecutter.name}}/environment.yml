@@ -14,7 +14,7 @@ dependencies:
   - pytest=7.1.2
 {%- endif %}
 {%- if cookiecutter.running_eda == "yes" %}
-  - pandas=1.4.3
+  - pandas=1.4.4
   - seaborn=0.11.2
   - tqdm=4.64.0
 {%- endif %}

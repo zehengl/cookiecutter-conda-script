@@ -29,7 +29,6 @@ conda env create -f environment.yml -p .\.venv
 ## Docs
 
 ```cmd
-mkdocs build
 mkdocs serve
 ```
 {%- endif %}

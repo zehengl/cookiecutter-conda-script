@@ -12,17 +12,11 @@
 
 {% set python_versions = cookiecutter.python.split('.') %}- Python {{ python_versions[0] }}.{{ python_versions[1] }}
 
-## Install
+## Getting Started
 
 ```cmd
 conda env create -f environment.yml -p .\.venv
 ```
-
-> To update the `environment.yml` file, use the command below
-
-> ```cmd
-> conda env export --no-builds | findstr -v "prefix" > environment.yml
-> ```
 
 {%- if cookiecutter.writing_docs == "yes" %}
 

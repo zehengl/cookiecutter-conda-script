@@ -14,17 +14,15 @@
 
 ## Getting Started
 
-```cmd
-conda env create -f environment.yml -p .\.venv
-```
+    conda env create -f environment.yml -p .\.venv
+    conda activate .\.venv
 
 {%- if cookiecutter.writing_docs == "yes" %}
 
 ## Docs
 
-```cmd
-mkdocs serve
-```
+    mkdocs serve
+
 {%- endif %}
 
 ## Credits

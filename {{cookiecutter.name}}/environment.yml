@@ -4,7 +4,7 @@ channels:
 dependencies:
   - black=22.10.0
   - jupyterlab=3.4.8
-  - pip=22.2.2
+  - pip=22.3
 {%- if cookiecutter.writing_docs == "yes" %}
   - mkdocs-git-revision-date-localized-plugin=1.1.0
   - mkdocs-material=8.5.2

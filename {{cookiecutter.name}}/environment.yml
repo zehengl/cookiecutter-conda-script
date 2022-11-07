@@ -4,7 +4,7 @@ channels:
 dependencies:
   - black=22.10.0
   - jupyterlab=3.5.0
-  - pip=22.3
+  - pip=22.3.1
 {%- if cookiecutter.writing_tests == "yes" %}
   - pytest=7.2.0
 {%- endif %}

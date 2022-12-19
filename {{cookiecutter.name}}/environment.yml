@@ -14,7 +14,7 @@ dependencies:
   - tqdm=4.64.1
 {%- endif %}
   - python={{cookiecutter.python}}
-  - pylint=2.15.8
+  - pylint=2.15.9
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.1.0

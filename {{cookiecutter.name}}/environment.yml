@@ -6,20 +6,20 @@ dependencies:
   - jupyterlab=3.6.3
   - pip=23.0.1
 {%- if cookiecutter.writing_tests == "yes" %}
-  - pytest=7.2.2
+  - pytest=7.3.0
 {%- endif %}
 {%- if cookiecutter.running_eda == "yes" %}
-  - pandas=1.5.3
+  - pandas=2.0.0
   - seaborn=0.12.2
   - tqdm=4.65.0
 {%- endif %}
   - python={{cookiecutter.python}}
-  - pylint=2.17.1
+  - pylint=2.17.2
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.2.0
       - mkdocs-glightbox==0.3.2
-      - mkdocs-material==9.1.5
+      - mkdocs-material==9.1.6
       - mkdocs-minify-plugin==0.6.4
       - mkdocs==1.4.2
 {%- endif %}

@@ -4,12 +4,12 @@ channels:
 dependencies:
   - black=23.3.0
   - jupyterlab=3.6.3
-  - pip=23.1
+  - pip=23.1.1
 {%- if cookiecutter.writing_tests == "yes" %}
   - pytest=7.3.1
 {%- endif %}
 {%- if cookiecutter.running_eda == "yes" %}
-  - pandas=2.0.0
+  - pandas=2.0.1
   - seaborn=0.12.2
   - tqdm=4.65.0
 {%- endif %}
@@ -18,9 +18,9 @@ dependencies:
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.2.0
-      - mkdocs-glightbox==0.3.2
-      - mkdocs-material==9.1.6
+      - mkdocs-glightbox==0.3.3
+      - mkdocs-material==9.1.7
       - mkdocs-minify-plugin==0.6.4
       - mkdocs==1.4.2
 {%- endif %}
-      - pip-check-updates==0.21.0
+      - pip-check-updates==0.22.0

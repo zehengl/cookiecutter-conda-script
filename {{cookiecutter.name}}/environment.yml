@@ -3,8 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - black=23.7.0
-  - jupyterlab=4.0.2
-  - pip=23.1.2
+  - jupyterlab=4.0.3
+  - pip=23.2
 {%- if cookiecutter.writing_tests == "yes" %}
   - pytest=7.4.0
 {%- endif %}

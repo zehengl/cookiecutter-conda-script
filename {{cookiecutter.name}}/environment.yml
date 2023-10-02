@@ -14,12 +14,12 @@ dependencies:
   - tqdm=4.66.1
 {%- endif %}
   - python={{cookiecutter.python}}
-  - pylint=2.17.6
+  - pylint=2.17.7
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.2.0
       - mkdocs-glightbox==0.3.4
-      - mkdocs-material==9.4.2
+      - mkdocs-material==9.4.3
       - mkdocs-minify-plugin==0.7.1
       - mkdocs==1.5.3
 {%- endif %}

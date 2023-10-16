@@ -2,8 +2,8 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - jupyterlab=4.0.6
-  - pip=23.2.1
+  - jupyterlab=4.0.7
+  - pip=23.3
 {%- if cookiecutter.writing_tests == "yes" %}
   - pytest=7.4.2
 {%- endif %}
@@ -15,9 +15,9 @@ dependencies:
   - python={{cookiecutter.python}}
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
-      - mkdocs-git-revision-date-localized-plugin==1.2.0
+      - mkdocs-git-revision-date-localized-plugin==1.2.1
       - mkdocs-glightbox==0.3.4
-      - mkdocs-material==9.4.4
+      - mkdocs-material==9.4.6
       - mkdocs-minify-plugin==0.7.1
       - mkdocs==1.5.3
 {%- endif %}

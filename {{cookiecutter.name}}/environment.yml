@@ -5,19 +5,19 @@ dependencies:
   - jupyterlab=4.0.11
   - pip=23.3.2
 {%- if cookiecutter.writing_tests == "yes" %}
-  - pytest=7.4.4
+  - pytest=8.0.0
 {%- endif %}
 {%- if cookiecutter.running_eda == "yes" %}
   - pandas=2.2.0
-  - seaborn=0.13.1
+  - seaborn=0.13.2
   - tqdm=4.66.1
 {%- endif %}
   - python={{cookiecutter.python}}
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.2.2
-      - mkdocs-glightbox==0.3.6
-      - mkdocs-material==9.5.4
+      - mkdocs-glightbox==0.3.7
+      - mkdocs-material==9.5.6
       - mkdocs-minify-plugin==0.7.2
       - mkdocs==1.5.3
 {%- endif %}

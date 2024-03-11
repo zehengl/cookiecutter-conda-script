@@ -2,10 +2,10 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - jupyterlab=4.1.2
+  - jupyterlab=4.1.4
   - pip=24.0
 {%- if cookiecutter.writing_tests == "yes" %}
-  - pytest=8.1.0
+  - pytest=8.1.1
 {%- endif %}
 {%- if cookiecutter.running_eda == "yes" %}
   - pandas=2.2.1
@@ -16,9 +16,9 @@ dependencies:
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-glightbox==0.3.7
-      - mkdocs-material==9.5.12
+      - mkdocs-material==9.5.13
       - mkdocs-minify-plugin==0.8.0
       - mkdocs==1.5.3
       - neoteroi-mkdocs==1.0.5
 {%- endif %}
-      - pip-check-updates==0.24.0
+      - pip-check-updates==0.25.0

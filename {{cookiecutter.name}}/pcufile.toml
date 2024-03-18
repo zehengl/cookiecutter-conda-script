@@ -15,3 +15,6 @@ init = false
 path = "environment.yml"
 extra = []
 pre = false
+fail_on_update = false
+loggable = false
+version = true

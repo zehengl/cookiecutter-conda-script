@@ -2,7 +2,7 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - jupyterlab=4.1.5
+  - jupyterlab=4.1.6
   - pip=24.0
 {%- if cookiecutter.writing_tests == "yes" %}
   - pytest=8.1.1

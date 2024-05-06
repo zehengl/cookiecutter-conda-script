@@ -15,7 +15,7 @@ dependencies:
   - python={{cookiecutter.python}}
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
-      - mkdocs-glightbox==0.3.7
+      - mkdocs-glightbox==0.4.0
       - mkdocs-material==9.5.21
       - mkdocs-minify-plugin==0.8.0
       - mkdocs==1.6.0

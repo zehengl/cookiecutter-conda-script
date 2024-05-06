@@ -34,7 +34,7 @@ plugins:
   - search
   - tags
   - glightbox:
-      auto_caption: True
+      auto_caption: true
   - minify:
       minify_html: true
       minify_css: true

@@ -5,7 +5,7 @@ dependencies:
   - jupyterlab=4.2.5
   - pip=24.2
 {%- if cookiecutter.writing_tests == "yes" %}
-  - pytest=8.3.2
+  - pytest=8.3.3
 {%- endif %}
 {%- if cookiecutter.running_eda == "yes" %}
   - pandas=2.2.2

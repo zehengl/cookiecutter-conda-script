@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - jupyterlab=4.3.5
-  - pip=25.0
+  - pip=25.0.1
 {%- if cookiecutter.writing_tests == "yes" %}
   - pytest=8.3.4
 {%- endif %}
@@ -16,7 +16,7 @@ dependencies:
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-glightbox==0.4.0
-      - mkdocs-material==9.6.2
+      - mkdocs-material==9.6.3
       - mkdocs-minify-plugin==0.8.0
       - mkdocs==1.6.1
       - neoteroi-mkdocs==1.1.0

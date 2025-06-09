@@ -5,10 +5,10 @@ dependencies:
   - jupyterlab=4.4.3
   - pip=25.1.1
 {%- if cookiecutter.writing_tests == "yes" %}
-  - pytest=8.3.5
+  - pytest=8.4.0
 {%- endif %}
 {%- if cookiecutter.running_eda == "yes" %}
-  - pandas=2.2.3
+  - pandas=2.3.0
   - seaborn=0.13.2
   - tqdm=4.67.1
 {%- endif %}

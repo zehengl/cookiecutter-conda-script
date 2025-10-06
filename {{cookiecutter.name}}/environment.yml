@@ -8,7 +8,7 @@ dependencies:
   - pytest=8.4.2
 {%- endif %}
 {%- if cookiecutter.running_eda == "yes" %}
-  - pandas=2.3.2
+  - pandas=2.3.3
   - seaborn=0.13.2
   - tqdm=4.67.1
 {%- endif %}
@@ -16,7 +16,7 @@ dependencies:
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-glightbox==0.5.1
-      - mkdocs-material==9.6.20
+      - mkdocs-material==9.6.21
       - mkdocs-minify-plugin==0.8.0
       - mkdocs==1.6.1
       - neoteroi-mkdocs==1.1.3
